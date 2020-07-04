@@ -17,6 +17,14 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      ul {
+        list-style: none;
+        display: flex;
+      }
+
+      li {
+        margin-left: 20px;
+      }
       a {
         color: #fff;
         text-decoration: none;
