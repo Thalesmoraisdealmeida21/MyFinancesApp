@@ -41,4 +41,9 @@ export const Container = styled.div<ContainerProps>`
       }
     }
   }
+
+  h2 {
+    text-align: center;
+    color: white;
+  }
 `;
